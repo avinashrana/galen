@@ -1,0 +1,194 @@
+{
+  "testId" : "1-homepage-layout",
+  "name" : "homepage layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check homepage layout",
+      "status" : "error",
+      "time" : 1544949370309,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Home Page",
+        "place" : {
+          "filePath" : "specs/homepage.gspec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "inside screen 0px left",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "inside screen 0px right",
+            "highlight" : [ "header", "screen" ]
+          } ]
+        }, {
+          "name" : "sw-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "below header 31px",
+            "highlight" : [ "sw-logo", "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "image file sw-logo.png, error %5",
+            "errors" : [ "Couldn't load image: specs/sw-logo.png" ],
+            "highlight" : [ "sw-logo" ]
+          } ]
+        }, {
+          "name" : "navigation-links-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-2",
+            "highlight" : [ "navigation-links-1", "navigation-links-2" ]
+          } ]
+        }, {
+          "name" : "navigation-links-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-3",
+            "highlight" : [ "navigation-links-2", "navigation-links-3" ]
+          } ]
+        }, {
+          "name" : "navigation-links-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-4",
+            "highlight" : [ "navigation-links-3", "navigation-links-4" ]
+          } ]
+        }, {
+          "name" : "navigation-links-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-5",
+            "highlight" : [ "navigation-links-4", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-6",
+            "highlight" : [ "navigation-links-5", "navigation-links-6" ]
+          } ]
+        }, {
+          "name" : "navigation-links-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-7",
+            "highlight" : [ "navigation-links-6", "navigation-links-7" ]
+          } ]
+        }, {
+          "name" : "navigation-links-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-8",
+            "highlight" : [ "navigation-links-7", "navigation-links-8" ]
+          } ]
+        }, {
+          "name" : "nav-menu",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 35
+            },
+            "name" : "above follow-us-box 20px",
+            "errors" : [ "\"follow-us-box\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "navigation-links-4" : {
+          "area" : [ 744, 164, 207, 53 ]
+        },
+        "navigation-links-3" : {
+          "area" : [ 572, 164, 172, 53 ]
+        },
+        "navigation-links-2" : {
+          "area" : [ 505, 164, 67, 53 ]
+        },
+        "navigation-links-1" : {
+          "area" : [ 437, 164, 68, 53 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1680, 37 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1680, 2411 ]
+        },
+        "navigation-links-8" : {
+          "area" : [ 1225, 164, 17, 53 ]
+        },
+        "navigation-links-7" : {
+          "area" : [ 1143, 164, 82, 53 ]
+        },
+        "sw-logo" : {
+          "area" : [ 651, 68, 378, 64 ]
+        },
+        "navigation-links-6" : {
+          "area" : [ 1059, 164, 83, 53 ]
+        },
+        "navigation-links-5" : {
+          "area" : [ 952, 164, 108, 53 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
